@@ -1,0 +1,9 @@
+.row.relative .sidebar{
+  width: 160px;
+  background-color: greenyellow;
+  z-index: 10;
+}
+
+.bootstrap-practice .main{
+  padding-right: 160px;
+}
