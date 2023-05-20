@@ -7,7 +7,47 @@
     font-display: swap;
 }
 
-h1, h, h3, h4, h5, h6{
+.container{
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.nav{
+  margin: 10px 0;
+}
+
+.nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav ul li{
+  padding: 5px 10px;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+.paragraph{
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.paragraph .double-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
   font-family: 'Vintage Faith', cursive;
 }
 
