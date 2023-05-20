@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Vintage Faith';
+    src: url('../../assets/fonts/VintageFaith.woff2') format('woff2'),
+        url('../../assets/fonts/VintageFaith.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1, h, h3, h4, h5, h6{
+  font-family: 'Vintage Faith', cursive;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+h1,
+h3,
+h5 {
+  color: red;
+}
+h2,
+h4,
+h6 {
+  color: green;
+}
